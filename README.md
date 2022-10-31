@@ -8,7 +8,7 @@
 
 最近在使用阿里云对象存储的时候，发现阿里云OSS新增加了个对象数据索引的功能，这使得使用阿里云OSS提供的Flysystem适配器和第三方文件管理系统搭建网盘成为了可能。（在之前阿里云OSS未添加该功能时，使用文件系统访问OSS数据，在第一次加载需要五秒或更长时间，而现在，可以在0.5s内完成数据访问操作。）
 
-文件系统我们这里选择开源项目[FileGator v7.8.2](https://github.com/filegator/filegator)
+文件系统我们这里选择开源项目[FileGator v7.8.2](https://github.com/filegator/filegator)（默认账户：admin，默认密码：admin123）
 
 ### 环境要求
 
